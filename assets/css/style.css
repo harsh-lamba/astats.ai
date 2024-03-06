@@ -845,7 +845,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #FAFAFA;
   transition: 0.3s;
 }
 
@@ -861,6 +861,7 @@ section {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  color: #FAFAFA;
 }
 
 /*--------------------------------------------------------------
