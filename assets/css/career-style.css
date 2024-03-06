@@ -1,0 +1,80 @@
+.container-md {
+    max-width: 767px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.locations-dropdown {
+    text-align: center;
+}
+
+.job-category h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.job-list {
+    font-size: 1.125rem;
+}
+
+a,
+a:hover {
+    color: #4a90db;
+    text-decoration: none;
+}
+
+section hr {
+    margin-top: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: Lato, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+}
+
+.h3,
+h3 {
+    font-size: 1.75rem;
+}
+
+body,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #4f5457;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    text-align: left;
+}
+
+.available-jobs-section {
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.text-section {
+    margin-top: 0; /* Remove top margin */
+}
+
+.hello{
+    margin-top: 0;
+}
