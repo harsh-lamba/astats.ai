@@ -2164,3 +2164,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.copyright{
+  width: 100%;
+  text-align: center;
+}
