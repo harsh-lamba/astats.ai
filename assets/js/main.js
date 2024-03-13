@@ -296,8 +296,9 @@
   new PureCounter();
 
   window.openChatWindow = function () {
-    if (window.BE_API) {
-      window.BE_API.openChatWindow();
+    const chatOpenIcon = document.querySelector('#chatling-open-chat-icon > div');
+    if (chatOpenIcon) {
+      chatOpenIcon.click();
     }
   }
 
