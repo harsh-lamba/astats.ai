@@ -8,6 +8,8 @@
 (function () {
   "use strict";
 
+  const firebaseService = { db: null }
+
   /**
    * Easy selector helper function
    */
@@ -287,7 +289,7 @@
       easing: 'ease-in-out',
       once: true,
       mirror: false
-    })
+    });
   });
 
   /**
