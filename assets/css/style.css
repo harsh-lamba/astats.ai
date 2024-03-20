@@ -2170,3 +2170,9 @@ section {
   width: 100%;
   text-align: center;
 }
+
+#loader{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0 ;
+}

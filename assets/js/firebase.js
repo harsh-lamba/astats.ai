@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
-import { getFirestore, collection, query, getDocs } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js';
+import { getFirestore, collection, getDocs } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -26,7 +26,11 @@ async function getJobs() {
         const jobsCol = collection(db, "jobs");
         const jobsSnapshot = await getDocs(jobsCol);
         const jobs = jobsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        console.log(jobs);
+
+        const jobsList = document.getElementById("jobsList");
+        const loader = document.getElementById('loader');
+        loader.style.display = 'none';
+
         jobs.forEach((job) => {
             const jobRow = document.createElement("tr");
             jobRow.setAttribute("data-id", job.id); // Add document ID as an attribute
@@ -54,6 +58,4 @@ async function getJobs() {
     }
 }
 
-getJobs().then(() => {
-    console.log('promise resolved');
-});
+getJobs();
