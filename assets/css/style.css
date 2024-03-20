@@ -828,6 +828,7 @@ section {
   background: #252525;
   transition: 0.3s;
   position: relative;
+  min-height: 184px;
 }
 
 .services .icon-box:hover {
